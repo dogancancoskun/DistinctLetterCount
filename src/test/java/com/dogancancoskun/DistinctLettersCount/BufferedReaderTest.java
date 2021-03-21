@@ -10,7 +10,7 @@ import org.junit.Test;
 
 public class BufferedReaderTest {
 	
-	public static final String VALID_INPUT_PATH_FILE = "./src/main/java/testInput.txt";
+	public static final String VALID_INPUT_PATH_FILE = "./src/test/java/testInput.txt";
 	public static final String INVALID_INPUT_PATH_FILE = "";
 	
 	BufferedReader bufferedReaderWithValidPath = new BufferedReader(Paths.get(VALID_INPUT_PATH_FILE));
